@@ -3,7 +3,7 @@ def isHappy(val):
         if int(val) > 0:
             print(f"{val} is a positive integer good job!")
         else:
-            print(f"{val} is not positive integer, close though!")
+            print(f"{val} is not positive integer, it's negative.")
     except:
         try:
             float(val)
